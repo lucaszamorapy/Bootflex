@@ -1,0 +1,74 @@
+body {
+    background: #22092C !important;
+    font-family: 'IBM Plex Mono', monospace !important;
+}
+
+
+.conteudo {
+    max-width: 400px !important;
+}
+
+@media (max-width: 375px) {
+    .scrollbar {
+        overflow-x: scroll;
+    }
+}
+
+
+.tamanho-div {
+    height: 400px !important;
+}
+
+.item-solo {
+    width: 150px !important;
+}
+
+.item-align-item:first-child {
+	padding-top: 20px;
+}
+
+.column {
+    min-height: 200px;
+}
+
+.conteudo-botao {
+    max-width: 400px !important;
+}
+
+
+h6 {
+    font-style: italic;
+}
+
+.border-color{
+    border: 2px solid #872341 !important;
+}
+
+.bg-orange {
+    background: #F05941;
+}
+
+.text-color {
+    color: white;
+}
+
+.botao {
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    background: linear-gradient(to left, #BE3144, #872341);
+    filter: brightness(0.8);
+    transition: 0.3s ease;
+}
+
+.botao:hover {
+    filter: brightness(1);
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
